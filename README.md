@@ -2,7 +2,7 @@
 
 # Project Name
 
-Character Build Of Mission Impossible
+Mission Impossible Character Build
 
 ## About
 
