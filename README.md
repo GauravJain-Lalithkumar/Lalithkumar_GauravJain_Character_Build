@@ -1,6 +1,6 @@
 # Lalithkumar_GauravJain_Character_Build
 
-# ${1:Project Name}
+# Project Name
 
 Character Build Of Mission Impossible
 
