@@ -165,7 +165,7 @@ footer {
     color: rgb( 246, 246, 246);
     background-image: url('../image/Tom_Cruise_2.png');
     background-repeat: no-repeat;
-    background-size: 55vh;
+    background-size: 60vh;
     background-position: 40px bottom;
     z-index: 5000;
     display: none;
@@ -181,18 +181,22 @@ footer {
 
 #lightbox3 {
     background-image: url('../image/Simon_Pegg_3.png');
+    background-size: 100vh;
 }
 
 #lightbox4 {
     background-image: url('../image/Rebecca_Ferguso_2.png');
+    background-size: 100vh;
 }
 
 #lightbox5 {
-    background-image: url('../image/Ving_rhames.png');
+    background-image: url('../image/Ving_rhames.png'); 
+    background-size: 120vh;
 }
 
 #lightbox6 {
     background-image: url('../image/Henry_cavill.png');
+    background-size: 110vh;
 }
 .lightbox_close {
     position: relative;
@@ -212,7 +216,7 @@ footer {
 .lightbox article {
     width: 55%;
     margin-left: 40%;
-    padding-top: 50px;   
+    padding-top: 80px;   
 }
 
 .lb_text, .lb_heading {
@@ -220,6 +224,7 @@ footer {
 }
 
 .lb_text {
+    font-size: 20px;
     line-height: 1.6;
     margin-left: 0;
     padding-top: 2em;
@@ -227,4 +232,8 @@ footer {
 
 .lightbox:target {
     display: block;
+}
+
+.lightbox h3 {
+    color: red;
 }
